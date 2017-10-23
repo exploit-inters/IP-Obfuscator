@@ -1,2 +1,6 @@
 # IP-Obfuscator
-Obfuscate hosts into integer, hexadecimal or octal form.
+
+# compile:
+    gcc -std=gnu11 IP.c -o ip
+# run:
+    ./ip
