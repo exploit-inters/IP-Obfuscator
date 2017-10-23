@@ -5,9 +5,9 @@
 void banner() {
   fflush(stdin);
   const static char *banner = 
-"\n\t    IP Obfuscator  \n"
-"\t   Coded by @X_b3o1 \n"
-"\t  https://t.me/X_b3o1\n";
+"\n\t    IP Obfuscator   \n"
+"\t   Coded by @X_b3o1   \n"
+"\t  https://t.me/X_b3o1 \n";
   for(banner; *banner; ++banner) fprintf(stdout, "%c", *banner);            
 }
 
@@ -121,3 +121,4 @@ int main(){
 #endif
 	return 0;
 }
+
