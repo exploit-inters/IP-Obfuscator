@@ -1,6 +1,6 @@
 # IP-Obfuscator
 
 # compile:
-    gcc -std=gnu11 IP.c -o ip
+    cc -std=gnu11 IP.c -o ip
 # run:
     ./ip
